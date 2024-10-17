@@ -1,0 +1,53 @@
+
+
+/*Graph Representation & Input Handling
+
+Funtn: addEdge(int u, int v, int weight)
+Adds an edge to the graph between nodes u and v with the given weight.
+Function: inputGraph()
+Handles reading and initializing the graph structure, including reading the number of nodes, edges, and their weights.
+Dijkstra's Algorithm using Fibonacci Heap
+
+Functn: initializeFibonacciHeap()
+Initializes the Fibonacci heap for use in Dijkstra's algorithm.
+Function: relaxEdge(int u, int v, int weight)
+Standard relaxation procedure to update the shortest paths when a better path is found.
+
+Function: dijkstra(int source)
+Implements Dijkstra’s algorithm using the Fibonacci heap instead of a traditional priority queue. This function will:
+Extract the node with the smallest distance from the heap.
+Perform relaxation for all adjacent edges.
+Update the heap with new shortest distances.
+Heap Operations for Fibonacci Heap
+
+Function: insert(int node, int distance)
+Inserts a node into the Fibonacci heap with a specific distance.
+Function: extractMin()
+Extracts the node with the minimum distance from the heap.
+
+Function: decreaseKey(int node, int newDistance)
+Decreases the key (distance) of a node in the heap when a better path is found.
+Differential Equation Integration (for Delay Handling)
+
+Function: calculateDelay(int node)
+This function will solve a delay equation for each node (train station) based on dynamic factors (arrival time, current delays).
+
+Function: optimizePath()
+This function will optimize the pathfinding using differential equations and calculus-based techniques for real-time dynamic adjustments.
+Linear Algebra Integration (Matrix Manipulation)
+
+Function: buildAdjacencyMatrix()
+Builds the adjacency matrix representation of the graph.
+Function: multiplyMatrices(Matrix A, Matrix B)
+Handles operations like matrix multiplication (for calculating path lengths, iterative improvements).
+
+Function: invertMatrix(Matrix A)
+In case you need to handle systems of linear equations (for traffic predictions), matrix inversion can be used.
+
+Main Function: runRailwayPathfinding()
+Integrates all the components:
+Read and construct the graph.
+Initialize the Fibonacci heap.
+Run Dijkstra’s algorithm with heap optimizations.
+Calculate dynamic delays and adjust paths.
+Output the results*/
