@@ -1,0 +1,6 @@
+Initial Graph Structure After Applying Delays:
+Station 3 -> 
+Station 2 -> (3, 7, 1.5) 
+Station 1 -> (2, 4, 0.2) (3, 10, 2) 
+Station 0 -> (1, 8, 1) (2, 6, 0.5) 
+
